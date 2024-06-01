@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../js/acceuil.js" defer></script>
+    <title>DocumenTechno</title>
+</head>
+<body>
+    <h1 class="text-3xl text-center my-8">Technologie</h1>
+    <nav class="bg-gray-800 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <!-- Logo ou marque -->
+                <a href="./monSite.html" class="text-white text-xl font-bold">MonSite</a>
+              </div>
+              <div class="hidden md:block ml-10">
+                <!-- Liens de navigation -->
+                <a href="./international.html" class="text-white hover:text-gray-300 ml-4">International</a>
+                <a href="./local.html" class="text-white hover:text-gray-300 ml-4">Actualités locales</a>
+                <a href="./sport.html" class="text-white hover:text-gray-300 ml-4">Sport</a>
+                <a href="./techno.html" class="text-white hover:text-gray-300 ml-4">Technologie</a>
+                <a href="./meteo.html" class="text-white hover:text-gray-300 ml-4">Météo</a>
+              </div>
+            </div>
+            <div class="hidden md:block">
+              <!-- Boutons ou actions -->
+              <div class="ml-4 flex items-center md:ml-6">
+                <button class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md" id="connecter">Connexion</button>
+              </div>
+            </div>
+            <div class="md:hidden">
+              <!-- Bouton de menu pour les appareils mobiles -->
+              <button id="mobile-menu-toggle" class="text-white inline-flex items-center justify-center p-2 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                <!-- Icone de menu -->
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Menu déroulant pour les appareils mobiles -->
+        <div class="hidden md:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="./international.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">International</a>
+            <a href="./local.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">Actualités locales</a>
+            <a href="./sport.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">Sport</a>
+            <a href="./techno.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">Technologie</a>
+            <a href="./meteo.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">Météo</a>
+          </div>
+        </div>
+      </nav>
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+        <img src="../images/flutter.png" alt="Fluuter" class="w-full rounded-md mb-6">
+        <h2 class="text-2xl text-center my-1 text-blue-400">Dart s'ouvre aux apps Wasm et à la GenAI </h2>
+        <p class="text-lg text-gray-800 mb-4">
+          Lancée le 15 février, 
+          la version 3.3 du langage Dart jette les bases de la compilation des apps Flutter en WebAssembly (Wasm), 
+          tandis que le nouveau SDK intègre l'API Gemini pour implémenter des fonctions d'IA dans les applications.   
+        </p>
+      </div>
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <img src="../images/kotlin2.webp" alt="Eléction" class="w-full rounded-md mb-6">
+        <h2 class="text-2xl text-center my-1 text-blue-400">Kotlin 2.0 est disponible avec un compilateur K2</h2>
+        <p class="text-lg text-gray-800 mb-4">
+          En développement depuis plusieurs mois, JetBrains annonce enfin la sortie de Kotlin 2.0 avec un compilateur K2 stable, qui est multiplateforme dès sa conception, qui comprend mieux votre code et le compile deux fois plus rapidement.
+          Kotlin a commencé comme un langage JVM et a rapidement gagné en popularité auprès des développeurs en raison de sa concision et de sa sureté. Il a rapidement gagné du terrain côté serveur avec des grandes entreprises comme AWS, Adobe, 
+          Atlassian et Google qui l'ont adopté. Kotlin est également devenu le principal langage pour le développement Android, avec 95% du top 1000 des applications Android contenant du code Kotlin.
+          JetBrains a poussé les limites de Kotlin encore plus loin en introduisant Kotlin Multiplatform (KMP), qui vous permet de partager du code entre les plateformes côté serveur, web, desktop, iOS et Android. 
+          La popularité de Kotlin Multiplatform a commencé à croître énormément et la technologie a été largement adoptée par les organisations leaders, dont Forbes, Philips, Square et McDonald’s. De plus, Google utilise déjà KMP pour développer ses propres applications Workspace et recommande désormais officiellement d'utiliser KMP pour le partage de la logique métier.
+          Kotlin 2.0 est la prochaine étape dans l'évolution du langage.    
+        </p>
+      </div>
+      <div class="fixed bottom-4 right-4">
+        <a href="#top" class="bg-transparent hover:bg-blue-500 text-blue-400 hover:text-white font-bold py-2 px-4 border border-blue-500 rounded-full">
+            Revenir en haut
+        </a>
+      </div>
+</body>
+</html>
