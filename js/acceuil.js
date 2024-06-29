@@ -16,3 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
       window.location.href = '../index.html';
     });
   })
+
+  fetch('../footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
